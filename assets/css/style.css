@@ -234,93 +234,274 @@ tr img {
     width: 100%;
     height: auto;
   }
-
-.tabletext1 {
-  background-color: #4aaaa5;
-  position: absolute;
-  width: 46.5%;
-  height: auto;
-  line-height: 10px;
-  color: white;
-  top: 100px;
-  text-align: center;
-}
-
-.tabletext2 {
-  background-color: #4aaaa5;
-  position: absolute;
-  width: 46.5%;
-  height: auto;
-  line-height: 10px;
-  color: white;
-  top: 100px;
-  text-align: center;
-}
-
-.tabletext3 {
-  background-color: #4aaaa5;
-  position: absolute;
-  width: 46.5%;
-  height: auto;
-  line-height: 10px;
-  color: white;
-  top: 280px;
-  text-align: center;
-}
-
-.tabletext4 {
-  background-color: #4aaaa5;
-  position: absolute;
-  width: 46.5%;
-  height: auto;
-  line-height: 10px;
-  color: white;
-  top: 280px;
-  text-align: center;
-}
-
-.tabletext5 {
-  background-color: #4aaaa5;
-  position: absolute;
-  width: 46.5%;
-  height: auto;
-  line-height: 10px;
-  color: white;
-  bottom: 30px;
-  text-align: center;
-}
+  .tabletext1 {
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 46.5%;
+    height: auto;
+    line-height: 10px;
+    color: white;
+    top: 100px;
+    text-align: center;
+  }
+  .tabletext2 {
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 46.5%;
+    height: auto;
+    line-height: 10px;
+    color: white;
+    top: 100px;
+    text-align: center;
+  }
+  .tabletext3 {
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 46.5%;
+    height: auto;
+    line-height: 10px;
+    color: white;
+    top: 280px;
+    text-align: center;
+  }
+  .tabletext4 {
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 46.5%;
+    height: auto;
+    line-height: 10px;
+    color: white;
+    top: 280px;
+    text-align: center;
+  }
+  .tabletext5 {
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 46.5%;
+    height: auto;
+    line-height: 10px;
+    color: white;
+    bottom: 30px;
+    text-align: center;
   }
 }
 
 @media screen and (max-width: 768px) {
-  body {
-    background-color: #333;
+  .container {
+    width: 93%;
+    height: auto;
+    margin: 0px;
+    align-content: center;
+  }
+
+  .right-buttons {
+    margin-right: 0;
+  }
+
+  h1.name {
+    margin-left: 0;
+  }
+  tr img {
+    width: 100%;
+    height: auto;
+  }
+  .tabletext1 {
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 47.5%;
+    height: auto;
+    line-height: 10px;
+    color: white;
+    top: 160px;
+    text-align: center;
+  }
+  .tabletext2 {
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 47.5%;
+    height: auto;
+    line-height: 10px;
+    color: white;
+    top: 160px;
+    text-align: center;
+  }
+  .tabletext3 {
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 47.5%;
+    height: auto;
+    line-height: 10px;
+    color: white;
+    top: 420px;
+    text-align: center;
+  }
+  .tabletext4 {
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 47.5%;
+    height: auto;
+    line-height: 10px;
+    color: white;
+    top: 420px;
+    text-align: center;
+  }
+  .tabletext5 {
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 47.5%;
+    height: auto;
+    line-height: 10px;
+    color: white;
+    bottom: 30px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 60%;
+    height: auto;
+    margin: 0px;
   }
   h1.name {
-    /* Box-model */
-    width: 100%;
-    padding: 20px;
+    margin-left: 0;
   }
-  #main-content, #sidebar {
+  tr img {
     width: 100%;
+    height: auto;
   }
-  #sidebar {
-    margin-top: 40px;
+  .tabletext1 {
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 46.5%;
+    height: auto;
+    line-height: 10px;
+    color: white;
+    top: 100px;
+    text-align: center;
+  }
+  .tabletext2 {
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 46.5%;
+    height: auto;
+    line-height: 10px;
+    color: white;
+    top: 100px;
+    text-align: center;
+  }
+  .tabletext3 {
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 46.5%;
+    height: auto;
+    line-height: 10px;
+    color: white;
+    top: 280px;
+    text-align: center;
+  }
+  .tabletext4 {
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 46.5%;
+    height: auto;
+    line-height: 10px;
+    color: white;
+    top: 280px;
+    text-align: center;
+  }
+  .tabletext5 {
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 46.5%;
+    height: auto;
+    line-height: 10px;
+    color: white;
+    bottom: 30px;
+    text-align: center;
   }
 }
 
 @media screen and (max-width: 640px) {
-  body {
-    background-color: orange;
-  }
-  .wrapper {
+  .name {
     width: 100%;
-    padding: 20px;
+    text-align: center;
+    margin: 0;
   }
-  #main-content, #sidebar {
+
+  .container {
+    width: 93%;
+    height: auto;
+    margin: 0px;
+    align-content: center;
+  }
+
+  .right-buttons {
+    margin-right: 0;
+    background-color: white;
     width: 100%;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
   }
-  #sidebar {
-    margin-top: 40px;
+
+  h1.name {
+    margin-left: 0;
+  }
+
+  tr img {
+    width: 100%;
+    height: auto;
+  }
+  .tabletext1 {
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 47%;
+    height: auto;
+    line-height: 10px;
+    color: white;
+    top: 130px;
+    text-align: center;
+  }
+  .tabletext2 {
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 47%;
+    height: auto;
+    line-height: 10px;
+    color: white;
+    top: 130px;
+    text-align: center;
+  }
+  .tabletext3 {
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 47%;
+    height: auto;
+    line-height: 10px;
+    color: white;
+    top: 350px;
+    text-align: center;
+  }
+  .tabletext4 {
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 47%;
+    height: auto;
+    line-height: 10px;
+    color: white;
+    top: 350px;
+    text-align: center;
+  }
+  .tabletext5 {
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 47%;
+    height: auto;
+    line-height: 10px;
+    color: white;
+    bottom: 30px;
+    text-align: center;
   }
 }
